@@ -5,3 +5,4 @@ MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
 # More info in the main Magisk thread
+magiskpolicy --live "allow hal_camera_default surfaceflinger_service service_manager find"
